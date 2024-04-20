@@ -40,7 +40,7 @@
     # ./statusline/lualine.nix
     # ./statusline/staline.nix
 
-    # ./telescope/telescope.nix
+    ./telescope.nix
 
     ./ui/alpha.nix
     # ./ui/dressing-nvim.nix
