@@ -2,7 +2,7 @@
   # Import all your configuration modules here
   imports = [
     # ./sets.nix
-    # ./keymaps.nix
+    ./keymaps.nix
 
     # ./bufferlines/bufferline.nix
 
@@ -42,7 +42,7 @@
 
     # ./telescope/telescope.nix
 
-    # ./ui/alpha.nix
+    ./ui/alpha.nix
     # ./ui/dressing-nvim.nix
     # ./ui/indent-blankline.nix
     # ./ui/noice.nix

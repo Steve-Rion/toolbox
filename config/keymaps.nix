@@ -1,51 +1,7 @@
-# Thanks for the keybinds primeagen and folke!
 {
   globals.mapleader = " ";
 
-  # TODO: Move general mappings to which-key
   keymaps = [
-    # Disable arrow keys
-    {
-      mode = ["n" "i"];
-      key = "<Up>";
-      action = "<Nop>";
-      options = {
-        silent = true;
-        noremap = true;
-        desc = "Disable Up arrow key";
-      };
-    }
-    {
-      mode = ["n" "i"];
-      key = "<Down>";
-      action = "<Nop>";
-      options = {
-        silent = true;
-        noremap = true;
-        desc = "Disable Down arrow key";
-      };
-    }
-    {
-      mode = ["n" "i"];
-      key = "<Right>";
-      action = "<Nop>";
-      options = {
-        silent = true;
-        noremap = true;
-        desc = "Disable Right arrow key";
-      };
-    }
-    {
-      mode = ["n" "i"];
-      key = "<Left>";
-      action = "<Nop>";
-      options = {
-        silent = true;
-        noremap = true;
-        desc = "Disable Left arrow key";
-      };
-    }
-
     # General maps
     {
       mode = "n";
