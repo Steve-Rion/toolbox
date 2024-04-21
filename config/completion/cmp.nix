@@ -68,7 +68,6 @@
     };
   };
   extraConfigLua = ''
-      luasnip = require("luasnip")
       kind_icons = {
         Text = "󰊄",
         Method = "",
