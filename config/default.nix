@@ -10,21 +10,10 @@
 
     ./completion/cmp.nix
     ./filetrees/neo-tree.nix
-    # ./git/gitsigns.nix
-    # ./git/diffview.nix
-    # ./git/lazygit.nix
-    # ./git/neogit.nix
 
     ./languages/treesitter/treesitter.nix
 
-    # ./lsp/fidget.nix
     ./lsp/lsp.nix
-    # ./lsp/lspsaga.nix
-    # ./lsp/trouble.nix
-
-    # ./none-ls/none-ls.nix
-
-    # ./snippets/luasnip.nix
 
     ./statusline/lualine.nix
     ./statusline/staline.nix
@@ -32,15 +21,11 @@
     ./telescope.nix
 
     ./ui/alpha.nix
-    # ./ui/dressing-nvim.nix
     ./ui/indent-blankline.nix
     ./ui/noice.nix
-    # ./ui/nvim-notify.nix
     ./ui/nui.nix
 
-    # ./utils/better-escape.nix
-    # ./utils/neocord.nix
-    # ./utils/flash.nix
+    ./utils/flash.nix
     # ./utils/hardtime.nix
     # ./utils/harpoon.nix
     # ./utils/illuminate.nix
