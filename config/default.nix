@@ -30,14 +30,9 @@
     ./utils/mini.nix
     ./utils/nvim-autopairs.nix
     ./utils/nvim-colorizer.nix
-    # ./utils/nvim-surround.nix
-    # ./utils/oil.nix
     ./utils/persistence.nix
-    # ./utils/plenary.nix
-    # ./utils/project-nvim.nix
     ./utils/sidebar.nix
-    # ./utils/tmux-navigator.nix
-    # ./utils/todo-comments.nix
+    ./utils/todo-comments.nix
     # ./utils/toggleterm.nix
     # ./utils/ultimate-autopair.nix
     # ./utils/undotree.nix
