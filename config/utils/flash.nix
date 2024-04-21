@@ -1,5 +1,5 @@
 {
-  plugins.ash = {
+  plugins.flash = {
     enable = true;
     labels = "asdfghjklqwertyuiopzxcvbnm";
     search = {
