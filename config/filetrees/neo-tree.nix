@@ -19,5 +19,13 @@
         "<space>" = "none";
       };
     };
+    keymaps = {
+      "<leader>e" = {
+        action = "action=focus";
+      };
+      "<leader>E" = {
+        action = "action=close"
+      };
+    };
   };
 }
