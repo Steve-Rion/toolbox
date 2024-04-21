@@ -7,6 +7,8 @@
     ./settings.nix
 
     # Language Settings
+    ./cmp.nix
+    ./lsp.nix
 
 
     # Other Plugins
@@ -14,12 +16,10 @@
     ./bufferlines/bufferline.nix
 
 
-    ./completion/cmp.nix
     ./filetrees/neo-tree.nix
 
     ./languages/treesitter/treesitter.nix
 
-    ./lsp/lsp.nix
 
     ./statusline/lualine.nix
     ./statusline/staline.nix
