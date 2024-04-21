@@ -16,7 +16,6 @@
               command = "clippy";
             };
             inlayHints = {
-              enable = true;
               showParameterNames = true;
               parameterHintsPrefix = "<- ";
               otherHintsPrefix = "=> ";
