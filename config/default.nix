@@ -22,6 +22,7 @@
 
     # ./languages/nvim-jdtls.nix
     # ./languages/nvim-lint.nix
+    ./languages/treesitter/treesitter.nix
     # ./languages/treesitter/treesitter-context.nix
     # ./languages/treesitter/treesitter-textobjects.nix
     # ./languages/treesitter/ts-autotag.nix
