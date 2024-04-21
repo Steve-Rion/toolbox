@@ -10,10 +10,11 @@
     ./cmp.nix
     ./lsp.nix
 
+    # User Interface Plugins
+    ./alpha.nix
+    ./bufferline.nix
 
     # Other Plugins
-
-    ./bufferlines/bufferline.nix
 
 
     ./filetrees/neo-tree.nix
@@ -26,7 +27,6 @@
 
     ./telescope.nix
 
-    ./ui/alpha.nix
     ./ui/indent-blankline.nix
     ./ui/noice.nix
     ./ui/nui.nix
