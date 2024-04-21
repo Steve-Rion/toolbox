@@ -24,7 +24,7 @@
         action = "action=focus";
       };
       "<leader>E" = {
-        action = "action=close"
+        action = "action=close";
       };
     };
   };
