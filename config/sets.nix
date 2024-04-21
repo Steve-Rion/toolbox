@@ -43,9 +43,6 @@
       grepprg = "rg --vimgrep";
       grepformat = "%f:%l:%c:%m";
 
-      # Decrease updatetime
-      updatetime = 50; # faster completion (4000ms default)
-
       # Set completeopt to have a better completion experience
       completeopt = ["menuone" "noselect" "noinsert"]; # mostly just for cmp
 
@@ -73,9 +70,6 @@
 
       # Always keep 8 lines above/below cursor unless at start/end of file
       scrolloff = 8;
-
-      # Reduce which-key timeout to 10ms
-      timeoutlen = 10;
 
       # Set encoding type
       encoding = "utf-8";
