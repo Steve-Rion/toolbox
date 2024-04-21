@@ -17,11 +17,11 @@
     # User Interface Plugins
     ./alpha.nix
     ./bufferline.nix
+    ./neo-tree.nix
 
     # Other Plugins
 
 
-    ./filetrees/neo-tree.nix
 
 
 
