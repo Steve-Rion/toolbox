@@ -8,7 +8,7 @@
 
     ./colorschemes/gruvbox.nix
 
-    # ./completion/cmp.nix
+    ./completion/cmp.nix
     # ./completion/copilot.nix
     # ./completion/lspkind.nix
 
