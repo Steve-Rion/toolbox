@@ -33,7 +33,7 @@
     ./utils/persistence.nix
     ./utils/sidebar.nix
     ./utils/todo-comments.nix
-    # ./utils/whichkey.nix
+    ./utils/whichkey.nix
     ./utils/wilder.nix
   ];
 }
