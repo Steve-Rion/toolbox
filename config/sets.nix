@@ -61,7 +61,7 @@
       signcolumn = "yes";
 
       # Enable cursor line highlight
-      cursorline = true; # Highlight the line where the cursor is located
+      cursorline = false; # Highlight the line where the cursor is located
 
       # Set fold settings
       # These options were reccommended by nvim-ufo
@@ -73,9 +73,6 @@
 
       # Always keep 8 lines above/below cursor unless at start/end of file
       scrolloff = 8;
-
-      # Place a column line
-      colorcolumn = "80";
 
       # Reduce which-key timeout to 10ms
       timeoutlen = 10;
