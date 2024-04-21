@@ -49,6 +49,7 @@
     # ./ui/noice.nix
     # ./ui/nvim-notify.nix
     # ./ui/nui.nix
+    ./ui/virtcolumn.nix
 
     # ./utils/better-escape.nix
     # ./utils/neocord.nix
