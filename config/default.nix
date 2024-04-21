@@ -17,7 +17,9 @@
     # User Interface Plugins
     ./alpha.nix
     ./bufferline.nix
+    ./lualine.nix
     ./neo-tree.nix
+    ./staline.nix
 
     # Other Plugins
 
@@ -25,10 +27,7 @@
 
 
 
-    ./statusline/lualine.nix
-    ./statusline/staline.nix
 
-    ./telescope.nix
 
     ./ui/indent-blankline.nix
     ./ui/noice.nix
