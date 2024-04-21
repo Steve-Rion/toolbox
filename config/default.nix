@@ -18,8 +18,11 @@
     # User Interface Plugins
     ./alpha.nix
     ./bufferline.nix
+    ./indent-blankline.nix
     ./lualine.nix
     ./neo-tree.nix
+    ./noice.nix
+    ./nui.nix
     ./staline.nix
 
     # Other Plugins
@@ -30,9 +33,6 @@
 
 
 
-    ./ui/indent-blankline.nix
-    ./ui/noice.nix
-    ./ui/nui.nix
 
     ./utils/flash.nix
     ./utils/illuminate.nix
