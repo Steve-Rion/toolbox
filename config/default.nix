@@ -11,6 +11,7 @@
     ./lsp.nix
 
     # Core Experience Plugins
+    ./persistence.nix
     ./telescope.nix
     ./treesitter.nix
 
@@ -38,7 +39,6 @@
     ./utils/mini.nix
     ./utils/nvim-autopairs.nix
     ./utils/nvim-colorizer.nix
-    ./utils/persistence.nix
     ./utils/sidebar.nix
     ./utils/todo-comments.nix
     ./utils/whichkey.nix
