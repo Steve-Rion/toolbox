@@ -110,58 +110,6 @@
       (padding 1)
       {
         type = "button";
-        val = "󰈭  Find Word";
-        on_press.raw = "require('telescope.builtin').live_grep";
-        opts = {
-          # hl = "comment";
-          keymap = [
-            "n"
-            "g"
-            ":Telescope live_grep <CR>"
-            {
-              noremap = true;
-              silent = true;
-              nowait = true;
-            }
-          ];
-          shortcut = "g";
-
-          position = "center";
-          cursor = 3;
-          width = 38;
-          align_shortcut = "right";
-          hl_shortcut = "Keyword";
-        };
-      }
-      (padding 1)
-      {
-        type = "button";
-        val = "  Restore Session";
-        on_press.raw = "require('persistence').load()";
-        opts = {
-          # hl = "comment";
-          keymap = [
-            "n"
-            "s"
-            ":lua require('persistence').load()<cr>"
-            {
-              noremap = true;
-              silent = true;
-              nowait = true;
-            }
-          ];
-          shortcut = "s";
-
-          position = "center";
-          cursor = 3;
-          width = 38;
-          align_shortcut = "right";
-          hl_shortcut = "Keyword";
-        };
-      }
-      (padding 1)
-      {
-        type = "button";
         val = "  Quit Neovim";
         on_press.__raw = "function() vim.cmd[[qa]] end";
         opts = {
