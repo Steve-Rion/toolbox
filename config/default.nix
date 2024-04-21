@@ -4,7 +4,7 @@
     # ./sets.nix
     ./keymaps.nix
 
-    # ./bufferlines/bufferline.nix
+    ./bufferlines/bufferline.nix
 
     ./colorschemes/gruvbox.nix
 
