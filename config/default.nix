@@ -26,19 +26,11 @@
     ./staline.nix
 
     # Other Plugins
-
-
-
-
-
-
-
-
-    ./utils/flash.nix
-    ./utils/illuminate.nix
-    ./utils/mini.nix
-    ./utils/nvim-autopairs.nix
-    ./utils/nvim-colorizer.nix
+    ./flash.nix
+    ./illuminate.nix
+    ./mini.nix
+    ./nvim-autopairs.nix
+    ./nvim-colorizer.nix
     ./utils/sidebar.nix
     ./utils/todo-comments.nix
     ./utils/whichkey.nix
