@@ -2,6 +2,7 @@
   plugins = {
     bufferline = {
       enable = true;
+      alwaysShowBufferline = false;
       separatorStyle = "thick"; # “slant”, “padded_slant”, “slope”, “padded_slope”, “thick”, “thin”
       offsets = [
         {
