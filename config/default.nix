@@ -10,6 +10,10 @@
     ./cmp.nix
     ./lsp.nix
 
+    # Core Experience Plugins
+    ./telescope.nix
+    ./treesitter.nix
+
     # User Interface Plugins
     ./alpha.nix
     ./bufferline.nix
@@ -19,7 +23,6 @@
 
     ./filetrees/neo-tree.nix
 
-    ./languages/treesitter/treesitter.nix
 
 
     ./statusline/lualine.nix
