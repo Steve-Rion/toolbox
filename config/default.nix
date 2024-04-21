@@ -31,9 +31,9 @@
     ./mini.nix
     ./nvim-autopairs.nix
     ./nvim-colorizer.nix
-    ./utils/sidebar.nix
-    ./utils/todo-comments.nix
-    ./utils/whichkey.nix
-    ./utils/wilder.nix
+    ./sidebar.nix
+    ./todo-comments.nix
+    ./whichkey.nix
+    ./wilder.nix
   ];
 }
