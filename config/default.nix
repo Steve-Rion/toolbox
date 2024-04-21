@@ -1,8 +1,14 @@
 {
   # Import all your configuration modules here
   imports = [
-    ./settings.nix
+    # Basic Settings
     ./keymaps.nix
+    ./settings.nix
+
+    # Language Settings
+
+
+    # Other Plugins
 
     ./bufferlines/bufferline.nix
 
