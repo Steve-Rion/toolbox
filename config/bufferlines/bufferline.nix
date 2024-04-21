@@ -3,7 +3,7 @@
     bufferline = {
       enable = true;
       alwaysShowBufferline = false;
-      separatorStyle = "thick"; # “slant”, “padded_slant”, “slope”, “padded_slope”, “thick”, “thin”
+      separatorStyle = "thin"; # “slant”, “padded_slant”, “slope”, “padded_slope”, “thick”, “thin”
       offsets = [
         {
           filetype = "neo-tree";
@@ -30,6 +30,24 @@
       action = "<cmd>BufferLineCyclePrev<cr>";
       options = {
         desc = "Cycle to previous buffer";
+      };
+    }
+
+    {
+      mode = "n";
+      key = "<leader>k";
+      action = "<cmd>BufferLineGoToBuffer 1";
+      options = {
+        desc = "Cycle to first buffer";
+      };
+    }
+
+    {
+      mode = "n";
+      key = "<leader>j";
+      action = "<cmd>BufferLineGoToBuffer last";
+      options = {
+        desc = "Cycle to last buffer";
       };
     }
 
