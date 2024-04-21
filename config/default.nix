@@ -23,17 +23,25 @@
     ./neo-tree.nix
     ./noice.nix
     ./nui.nix
-    ./sidebar.nix
     ./staline.nix
-    ./wilder.nix
 
     # Other Plugins
-    ./flash.nix
-    ./illuminate.nix
-    ./mini.nix
-    ./nvim-autopairs.nix
-    ./nvim-colorizer.nix
-    ./todo-comments.nix
-    ./whichkey.nix
+
+
+
+
+
+
+
+
+    ./utils/flash.nix
+    ./utils/illuminate.nix
+    ./utils/mini.nix
+    ./utils/nvim-autopairs.nix
+    ./utils/nvim-colorizer.nix
+    ./utils/sidebar.nix
+    ./utils/todo-comments.nix
+    ./utils/whichkey.nix
+    ./utils/wilder.nix
   ];
 }
