@@ -9,26 +9,14 @@
     ./colorschemes/gruvbox.nix
 
     ./completion/cmp.nix
-    # ./completion/copilot.nix
-    # ./completion/lspkind.nix
-
-    # ./dap/dap.nix
-
     ./filetrees/neo-tree.nix
     # ./git/gitsigns.nix
     # ./git/diffview.nix
     # ./git/lazygit.nix
     # ./git/neogit.nix
 
-    # ./languages/nvim-jdtls.nix
-    # ./languages/nvim-lint.nix
     ./languages/treesitter/treesitter.nix
-    # ./languages/treesitter/treesitter-context.nix
-    # ./languages/treesitter/treesitter-textobjects.nix
-    # ./languages/treesitter/ts-autotag.nix
-    # ./languages/treesitter/ts-context-commentstring.nix
 
-    # ./lsp/conform.nix
     # ./lsp/fidget.nix
     ./lsp/lsp.nix
     # ./lsp/lspsaga.nix
