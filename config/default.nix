@@ -2,6 +2,7 @@
   # Import all your configuration modules here
   imports = [
     # Basic Settings
+    ./gruvbox.nix
     ./keymaps.nix
     ./settings.nix
 
@@ -12,7 +13,6 @@
 
     ./bufferlines/bufferline.nix
 
-    ./colorschemes/gruvbox.nix
 
     ./completion/cmp.nix
     ./filetrees/neo-tree.nix
