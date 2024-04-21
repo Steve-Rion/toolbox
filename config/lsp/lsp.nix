@@ -8,23 +8,6 @@
       capabilities = "offsetEncoding =  'utf-16'";
       servers = {
         nil_ls = {enable = true;};
-        rust-analyzer = {
-          enable = true;
-          settings = {
-            checkOnSave = true;
-            check = {
-              command = "clippy";
-            };
-            inlayHints = {
-              showParameterNames = true;
-              parameterHintsPrefix = "<- ";
-              otherHintsPrefix = "=> ";
-            };
-            procMacro = {
-              enable = true;
-            };
-          };
-        };
       };
     };
   };
