@@ -36,7 +36,7 @@
     {
       mode = "n";
       key = "<leader>k";
-      action = "<cmd>BufferLineGoToBuffer 1";
+      action = "<cmd>BufferLineGoToBuffer 1<cr>";
       options = {
         desc = "Cycle to first buffer";
       };
@@ -45,7 +45,7 @@
     {
       mode = "n";
       key = "<leader>j";
-      action = "<cmd>BufferLineGoToBuffer last";
+      action = "<cmd>BufferLineGoToBuffer last<cr>";
       options = {
         desc = "Cycle to last buffer";
       };
