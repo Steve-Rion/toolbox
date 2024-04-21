@@ -39,7 +39,7 @@
     # ./snippets/luasnip.nix
 
     ./statusline/lualine.nix
-    # ./statusline/staline.nix
+    ./statusline/staline.nix
 
     ./telescope.nix
 
