@@ -4,7 +4,7 @@
 
     keymaps = {
       "<leader>f" = {
-        action = "find_files, {}";
+        action = "Telescope";
       };
     };
   };
