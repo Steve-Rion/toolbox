@@ -6,6 +6,12 @@
 }: {
   config = {
     opts = {
+      # Enable system clipboard via wl-copy
+      clipboard = {
+        register = "unnamedplus";
+        wl-copy.enable = true;
+      };
+
       # Enable relative line numbers
       number = true;
       relativenumber = true;
