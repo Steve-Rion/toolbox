@@ -27,6 +27,7 @@
           "     \\/__/\\/___/  \\/___/ \\/____/ \\/___/  \\/___/ \\//\\/_/ "
           "                                                        "
           "                git@github.com:Steve-Rion               "
+          "             DEV BRANCH: 1-add-rust-support             "
         ];
       }
       (padding 2)
