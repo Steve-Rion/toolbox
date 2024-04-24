@@ -7,7 +7,7 @@
       enable = true;
       capabilities = "offsetEncoding =  'utf-16'";
       servers = {
-        nil_ls = {enable = true;};
+        nil_ls.enable = true;
       };
     };
   };
