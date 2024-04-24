@@ -16,19 +16,14 @@
         mapping = {
           __raw = ''
             cmp.mapping.preset.insert({
-            ['<tab>'] = cmp.mapping.select_next_item(),
-            ['<S-tab>'] = cmp.mapping.select_prev_item(),
-            ['<Esc>'] = cmp.mapping.abort(),
-
-            ['<C-b>'] = cmp.mapping.scroll_docs(-4),
-
-             ['<C-f>'] = cmp.mapping.scroll_docs(4),
-
-             ['<C-Space>'] = cmp.mapping.complete(),
-
-             ['<CR>'] = cmp.mapping.confirm({ select = true }),
-
-             ['<S-CR>'] = cmp.mapping.confirm({ behavior = cmp.ConfirmBehavior.Replace, select = true }),
+              ['<tab>'] = cmp.mapping.select_next_item(),
+              ['<S-tab>'] = cmp.mapping.select_prev_item(),
+              ['<Esc>'] = cmp.mapping.abort(),
+              ['<C-b>'] = cmp.mapping.scroll_docs(-4),
+              ['<C-f>'] = cmp.mapping.scroll_docs(4),
+              ['<C-Space>'] = cmp.mapping.complete(),
+              ['<CR>'] = cmp.mapping.confirm({ select = true }),
+              ['<S-CR>'] = cmp.mapping.confirm({ behavior = cmp.ConfirmBehavior.Replace, select = true }),
             })
           '';
         };
@@ -37,13 +32,16 @@
         };
         sources = {
           __raw = ''
-            cmp.config.sources({
-              {name = 'nvim_lsp'},
-              {name = 'path'},
-              {name = 'cmdline'},
-              }, {
-            {name = 'buffer'},
-            })
+            cmp.config.sources(
+              {
+                {name = 'nvim_lsp'},
+                {name = 'path'},
+                {name = 'cmdline'},
+              },
+              {
+                {name = 'buffer'},
+              }
+            )
           '';
         };
         performance = {
